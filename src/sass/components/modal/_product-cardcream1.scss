@@ -6,10 +6,12 @@
     left: 0;
     z-index: 250;
     opacity: 1;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    background-color: rgba(0, 0, 0, 0.1);
 
+    background-color: rgba(0, 0, 0, 0.1);
+    @media  screen and (min-width: 320px) and (max-width: 768px) {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
     transition: all 1s ease 0s;
 }
 
@@ -21,20 +23,17 @@
 .modal9 {
     position: relative;
     width: 88%;
-    top: 50%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -48%);
     padding: 28px;
-    overflow-y: auto;
-    overflow-x: hidden;
-
     @media screen and (min-width: 480px) {
         max-width: 568px;
     }
 
     @media screen and (min-width: 768px) {
         padding: 32px 54px;
-        top: 60%;
+        top: 50%;
     }
 
 }

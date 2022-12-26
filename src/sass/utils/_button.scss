@@ -17,8 +17,6 @@
   border: 2px solid var(--accentColor);
   border-radius: 8px;
   overflow: hidden;
-  cursor: pointer;
-
   transition: all var(--transitionDuration) var(--transitionTimingFunction);
 
   &:hover,
@@ -63,7 +61,6 @@
   border: 2px solid transparent;
   border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
 
   transition: all var(--transitionDuration) var(--transitionTimingFunction);
 
@@ -106,7 +103,6 @@
   border: 2px solid transparent;
 
   overflow: hidden;
-  cursor: pointer;
 
   transition: all var(--transitionDuration) var(--transitionTimingFunction);
 
@@ -150,8 +146,6 @@
   border: 2px solid transparent;
   border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
-
   background-color: var(--accentColor);
 
   transition: all var(--transitionDuration) var(--transitionTimingFunction);
@@ -207,7 +201,6 @@
   border: 2px solid var(--accentColor);
   border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
 
   transition: all var(--transitionDuration) var(--transitionTimingFunction);
 
@@ -260,8 +253,6 @@
   border: 2px solid transparent;
   border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
-
   background-color: var(--accentColor);
 
   transition: all var(--transitionDuration) var(--transitionTimingFunction);
@@ -327,7 +318,6 @@
   border: 2px solid transparent;
   border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
 
   transition-property: background-color, color;
   transition-duration: var(--transitionDuration);
@@ -386,7 +376,6 @@
   border: 2px solid transparent;
   border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
 
   background-color: var(--accentColor);
 
@@ -443,7 +432,6 @@
   border: 2px solid transparent;
   border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
 
   background-color: var(--accentColor);
 

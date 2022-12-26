@@ -130,7 +130,6 @@
     border: 2px solid transparent;
     border-radius: 10px;
     overflow: hidden;
-    cursor: pointer;
   
     background-color: var(--accentColor);
   
@@ -191,7 +190,6 @@
     padding: 0;
     border: 0;
     background-color: transparent;
-    cursor: pointer;
     transition: all var(--transitionDuration) var(--transitionTimingFunction);
     
     
